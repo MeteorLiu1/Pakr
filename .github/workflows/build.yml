@@ -33,7 +33,7 @@ jobs:
           cache: gradle
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v3.2.2
 
       - name: Cache Gradle dependencies
         uses: actions/cache@v4
